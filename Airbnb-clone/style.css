@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+#navContainer{
+    display:flex;
+    background-color:#F55A5A;
+    justify-content: space-evenly;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+#navChild{
+    display:flex;
+}
+#headline{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.4608px;
+    color: white;
+}
+#globe{
+    margin-right: 6px;
+}
+#place{
+    height: 210px;
+    width: 145px;
+    border-radius: 5px;
+}
+
+.cardCont{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    margin-top: 30px;
+    /* margin-bottom: 30px; */
+}
+#content{
+    margin-left: 25px;
+}
+#title{
+    margin-top: 6px
+}
+#date{
+    margin-bottom: 13px;
+    width: 319px;
+height: 11px;
+left: 184px;
+top: 183px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 15.24px;
+line-height: 12px;
+}
+#country{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 100;
+font-size: 17px;
+line-height: 12px;
+letter-spacing: 0.17em;
+width: 40px;
+height: 10px;
+left: 195px;
+top: 119px;
+}
+
+#link{
+    font-size: 14px;
+    color: grey;
+    margin-left: 15px;
+}
+#loc{
+    margin-right: 5px;
+}
+#desc{
+    
+   width: 315px;
+height: 65px;
+left: 184px;
+top: 203px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12.80px;
+line-height: 150%;
+}
+#fstline{
+    margin-top: 15px;
+    
+}
